@@ -2,9 +2,10 @@
 title: "Simple-abbreviations Example"
 filters:
   - simple-abbreviations
+##------ own macro definitions ----------  
 +myformula: the probably most well known formula, $a^2+b^2=\mathrm{youknow}$
 +myqurl: https://quarto.org/docs/extensions/filters.html
-+mylink: "[Quarto's documentation about creating filters](https://quarto.org/docs/extensions/filters.html)"
++mylink: "[Quarto's documentation about **creating filters**](https://quarto.org/docs/extensions/filters.html)"
 +do: "- doodledoo -"
 +dab: '"- dab - "'
 +daa: daaah
