@@ -9,7 +9,7 @@ in the documents yaml, add your abbreviations as keys starting with `+`, e.g.
 ---
 This will be an article about +myformula^[+myformula is famous]
 
-Please read more about creating filters in [Quarto's documentation](+myqurl)]
+Read more about creating filters in [Quarto's documentation](+myqurl)
 
 ```
 Then all occurences of the same key (starting with +) in the document are replaced by the value.
