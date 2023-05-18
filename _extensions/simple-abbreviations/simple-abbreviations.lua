@@ -132,6 +132,7 @@ yfup = {
 return{
 {
  Meta = function(m)
+  local abbrdefs = m["simple-abbreviations"]
    i = 1
    for k, v in pairs(m) do
      if string.sub(k, 1, 1) == "+" then 
@@ -139,7 +140,14 @@ return{
         abbr[i] = k
         i = i+1
       end
-   end   
+   end
+  if abbrdefs then 
+    for k, v in pairs(abbrdefs) do
+         abbreviations[k] = v
+         abbr[i] = k
+         i = i+1
+    end
+  end
   return(m)
   end
 } 
