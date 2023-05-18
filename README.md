@@ -7,7 +7,9 @@ in the documents yaml, add your abbreviations as keys starting with `+`, e.g.
 +myformula: the probably most well known formula $a^2+b^2=\mathrm{youknow}$ 
 +myqurl: https://quarto.org/docs/extensions/filters.html
 ---
-This will be an article about +myformula^[Please read more about creating filters in [Quarto's documentation](+myqurl)]
+This will be an article about +myformula^[+myformula is famous]
+
+Please read more about creating filters in [Quarto's documentation](+myqurl)]
 
 ```
 Then all occurences of the same key (starting with +) in the document are replaced by the value.

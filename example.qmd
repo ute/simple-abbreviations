@@ -11,6 +11,8 @@ filters:
 ---
 ### About +myformula
 
-This is an article about +myformula, by master P^[Read more about creating filters in [Quarto's documentation](+myqurl)]
+This is an article about +myformula, by master P^[Pythagoras is said to be the author of +myformula]
+  
+Read more about creating filters in [Quarto's documentation](+myqurl)
 
 +do+dab+daa
