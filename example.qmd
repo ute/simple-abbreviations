@@ -4,6 +4,7 @@ filters:
   - simple-abbreviations
 +myformula: the probably most well known formula, $a^2+b^2=\mathrm{youknow}$
 +myqurl: https://quarto.org/docs/extensions/filters.html
++mylink: "[Quarto's documentation about creating filters](https://quarto.org/docs/extensions/filters.html)"
 +do: "- doodledoo -"
 +dab: '"- dab - "'
 +daa: daaah
@@ -13,6 +14,8 @@ filters:
 
 This is an article about +myformula, by master P^[Pythagoras is said to be the author of +myformula]
   
-Read more about creating filters in [Quarto's documentation](+myqurl)
+Link with url macro [Quarto's documentation](+myqurl)
 
 +do+dab+daa
+
+and complete link: +mylink
