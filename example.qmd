@@ -1,0 +1,16 @@
+---
+title: "Simple-abbreviations Example"
+filters:
+  - simple-abbreviations
++myformula: the probably most well known formula, $a^2+b^2=\mathrm{youknow}$
++myqurl: https://quarto.org/docs/extensions/filters.html
++do: "- doodledoo -"
++dab: '"- dab - "'
++daa: daaah
+
+---
+### About +myformula
+
+This is an article about +myformula, by master P^[Read more about creating filters in [Quarto's documentation](+myqurl)]
+
++do+dab+daa
