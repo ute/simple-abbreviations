@@ -1,4 +1,4 @@
-# (Simple-abbreviations Extension for Quarto) -> use [**Search-Replace**](https://github.com/ute/search-replace) instead
+# (Simple-abbreviations Extension for Quarto) -> use [**Search-Replace Extension**](https://github.com/ute/search-replace) instead
  
 > **Note**
 > !! This quarto extension is superseded by [**Search-Replace**](https://github.com/ute/search-replace)
