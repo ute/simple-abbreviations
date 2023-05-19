@@ -1,4 +1,7 @@
-# Simple-abbreviations Extension for Quarto
+# (Simple-abbreviations Extension for Quarto) -> use [**Search-Replace**](https://github.com/ute/search-replace) instead
+ 
+> **Note**
+> !! This quarto extension is superseded by [**Search-Replace**](https://github.com/ute/search-replace)
 
 This extension allows user defined simple text replacement macros in the yaml of a quarto document:
 in the documents yaml, add your abbreviations as keys starting with `+`, e.g. 
